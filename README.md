@@ -4,4 +4,5 @@
   </a>
 </div>
 
-[![Finished](https://img.shields.io/badge/Finished-556B2F)|![December](https://img.shields.io/badge/December-808080)](https://www.example.com)
+
+![Finished](https://img.shields.io/badge/finished-december-blue)
