@@ -66,7 +66,9 @@ Este é um conversor de moedas simples desenvolvido em Java que utiliza a API Ex
 
 Menu inicial:
 
-<img width="174" alt="menu" src="https://github.com/user-attachments/assets/df7b1e4a-b4e5-4715-8bdd-655fba3c3734" />
+<div align="center">
+    <img width="300" alt="menu" src="https://github.com/user-attachments/assets/df7b1e4a-b4e5-4715-8bdd-655fba3c3734" />
+</div>
 
 ## Observações
 
