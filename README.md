@@ -9,7 +9,7 @@
 
 ---
 
- # Conversor de Moedas
+# Conversor de Moedas
 
 ## Descrição do Projeto
 
@@ -62,7 +62,17 @@ Este é um conversor de moedas simples desenvolvido em Java que utiliza a API Ex
   - Real Brasileiro (BRL) para Rand Sul-Africano (ZAR), Naira Nigeriana (NGN) e Peso Filipino (PHP), e vice-versa.
 - Registro de todas as conversões em um arquivo de log com a data e hora.
 
-## Exemplo de Saída
+## Exemplo de Execução
 
 Menu inicial:
 
+<img width="174" alt="menu" src="https://github.com/user-attachments/assets/df7b1e4a-b4e5-4715-8bdd-655fba3c3734" />
+
+## Observações
+
+- Certifique-se de que a chave da API esteja configurada corretamente no arquivo `api_key.txt`.
+- O arquivo de log será salvo no caminho especificado no código: `C:\Users\samuel\conversor-de-moedas\src\log_de_transacoes.txt`. Altere o caminho para onde salvar seu projeto.
+
+## Desenvolvimento
+
+Projeto desenvolvido como parte da especialização back-end em Java de [Oracle Next Education](https://www.alura.com.br/) em parceria com [Alura](https://www.alura.com.br/).
