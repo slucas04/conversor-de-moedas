@@ -1,3 +1,3 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/just%20the%20message-blue" alt="Static Badge">
+  <img src="https://img.shields.io/badge/Challenget%20Oracle%20Next%20Education" alt="Static Badge">
 </div>
