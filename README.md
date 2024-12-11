@@ -4,5 +4,6 @@
   </a>
 </div>
 
-
-![Finished](https://img.shields.io/badge/finished-december-blue)
+<div align="center">
+    <img src="https://img.shields.io/badge/finished-december-green" alt="Finished in December">
+</div>
