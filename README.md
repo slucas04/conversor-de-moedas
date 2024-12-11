@@ -11,11 +11,11 @@
 
 # Conversor de Moedas
 
-## Descrição do Projeto
+## Descrição do projeto
 
 Este é um conversor de moedas desenvolvido em Java, com propósito de praticar o uso de comunicação com APIs externas na linguagem, que utiliza a API ExchangeRate-API para realizar conversões entre diferentes moedas. O projeto inclui um menu interativo para que o usuário escolha as moedas de origem e destino, insira o valor e receba a conversão calculada. Além disso, todas as conversões realizadas são registradas em um arquivo de log.
 
-## Tecnologias Utilizadas
+## Tecnologias utilizadas
 
 - **Java 17**: Linguagem de programação principal do projeto.
 - **Gson**: Biblioteca para manipulação de JSON.
@@ -23,7 +23,7 @@ Este é um conversor de moedas desenvolvido em Java, com propósito de praticar 
 - **ExchangeRate-API**: API utilizada para obter as taxas de conversão.
 - **Sistema de arquivos**: Para leitura da chave da API e registro de logs.
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 - **`Main.java`**: Contém o ponto de entrada do programa.
 - **`MenuInicial.java`**: Gera o menu interativo e manipula as opções escolhidas pelo usuário.
@@ -35,7 +35,7 @@ Este é um conversor de moedas desenvolvido em Java, com propósito de praticar 
   - Real Brasileiro (BRL) para Rand Sul-Africano (ZAR), Naira Nigeriana (NGN) e Peso Filipino (PHP), e vice-versa.
 - Registro de todas as conversões em um arquivo de log com a data e hora.
 
-## Exemplo de Execução
+## Exemplo de execução
 
 Menu inicial:
 
@@ -43,11 +43,11 @@ Menu inicial:
     <img width="300" alt="menu" src="https://github.com/user-attachments/assets/df7b1e4a-b4e5-4715-8bdd-655fba3c3734" />
 </div>
 
-## Como Executar o Projeto
+## Como executar
 
 1. **Requisitos**:
    - Java 17 ou superior instalado.
-   - A biblioteca `Gson` adicionada ao projeto.
+   - A biblioteca `Gson` adicionada como dependência ao projeto (não utilizei nenhum assistente, apenas instalei o jar [aqui](https://mvnrepository.com/artifact/com.google.code.gson/gson) e importei ao projeto pelo IntelliJ).
 
 2. **Configuração da API**:
    - Crie um arquivo `api_key.txt` na pasta `config`.
@@ -55,18 +55,8 @@ Menu inicial:
      ```
      MINHA_CHAVE_DE_API=SUACHAVEAQUI
      ```
-
-3. **Execução**:
-   - Compile o projeto:
-     ```
-     javac -d bin src/br/com/alura/conversordemoedas/*.java
-     ```
-   - Execute a aplicação:
-     ```
-     java -cp bin br.com.alura.conversordemoedas.Main
-     ```
-
-4. **Navegação**:
+     
+3. **Navegação**:
    - Escolha uma opção no menu inicial para converter valores entre as moedas suportadas.
    - Insira o valor a ser convertido no formato decimal (usando vírgula para separar os centavos).
 
