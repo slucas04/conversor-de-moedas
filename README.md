@@ -13,7 +13,7 @@
 
 ## Descrição do Projeto
 
-Este é um conversor de moedas simples desenvolvido em Java que utiliza a API ExchangeRate-API para realizar conversões entre diferentes moedas. O projeto inclui um menu interativo para que o usuário escolha as moedas de origem e destino, insira o valor e receba a conversão calculada. Além disso, todas as conversões realizadas são registradas em um arquivo de log.
+Este é um conversor de moedas desenvolvido em Java, com propósito de praticar o uso de comunicação com APIs externas na linguagem, que utiliza a API ExchangeRate-API para realizar conversões entre diferentes moedas. O projeto inclui um menu interativo para que o usuário escolha as moedas de origem e destino, insira o valor e receba a conversão calculada. Além disso, todas as conversões realizadas são registradas em um arquivo de log.
 
 ## Tecnologias Utilizadas
 
@@ -28,6 +28,20 @@ Este é um conversor de moedas simples desenvolvido em Java que utiliza a API Ex
 - **`Main.java`**: Contém o ponto de entrada do programa.
 - **`MenuInicial.java`**: Gera o menu interativo e manipula as opções escolhidas pelo usuário.
 - **`Conversor.java`**: Realiza as chamadas à API e faz os cálculos de conversão.
+
+## Funcionalidades
+
+- Conversão entre as moedas:
+  - Real Brasileiro (BRL) para Rand Sul-Africano (ZAR), Naira Nigeriana (NGN) e Peso Filipino (PHP), e vice-versa.
+- Registro de todas as conversões em um arquivo de log com a data e hora.
+
+## Exemplo de Execução
+
+Menu inicial:
+
+<div align="center">
+    <img width="300" alt="menu" src="https://github.com/user-attachments/assets/df7b1e4a-b4e5-4715-8bdd-655fba3c3734" />
+</div>
 
 ## Como Executar o Projeto
 
@@ -56,20 +70,6 @@ Este é um conversor de moedas simples desenvolvido em Java que utiliza a API Ex
    - Escolha uma opção no menu inicial para converter valores entre as moedas suportadas.
    - Insira o valor a ser convertido no formato decimal (usando vírgula para separar os centavos).
 
-## Funcionalidades
-
-- Conversão entre as moedas:
-  - Real Brasileiro (BRL) para Rand Sul-Africano (ZAR), Naira Nigeriana (NGN) e Peso Filipino (PHP), e vice-versa.
-- Registro de todas as conversões em um arquivo de log com a data e hora.
-
-## Exemplo de Execução
-
-Menu inicial:
-
-<div align="center">
-    <img width="300" alt="menu" src="https://github.com/user-attachments/assets/df7b1e4a-b4e5-4715-8bdd-655fba3c3734" />
-</div>
-
 ## Observações
 
 - Certifique-se de que a chave da API esteja configurada corretamente no arquivo `api_key.txt`.
@@ -77,4 +77,4 @@ Menu inicial:
 
 ## Desenvolvimento
 
-Projeto desenvolvido como parte da especialização back-end em Java de [Oracle Next Education](https://www.alura.com.br/) em parceria com [Alura](https://www.alura.com.br/).
+Projeto desenvolvido como parte da especialização back-end em Java de [Oracle Next Education](https://www.oracle.com/br/education/oracle-next-education/) em parceria com [Alura](https://www.alura.com.br/).
