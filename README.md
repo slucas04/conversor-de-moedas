@@ -13,20 +13,6 @@
 
 Este é um conversor de moedas desenvolvido em Java, com propósito de praticar o uso de comunicação com APIs externas na linguagem, que utiliza a API ExchangeRate-API para realizar conversões entre diferentes moedas. O projeto inclui um menu interativo para que o usuário escolha as moedas de origem e destino, insira o valor e receba a conversão calculada. Além disso, todas as conversões realizadas são registradas em um arquivo de log.
 
-## Tecnologias utilizadas
-
-- **Java 17**: Linguagem de programação principal do projeto.
-- **Gson**: Biblioteca para manipulação de JSON.
-- **Java HTTP Client**: Para realizar requisições HTTP.
-- **ExchangeRate-API**: API utilizada para obter as taxas de conversão em tempo real.
-- **Sistema de arquivos**: Para leitura da chave da API e registro de logs com histórico de conversões.
-
-## Estrutura do projeto
-
-- **`Main.java`**: Contém o ponto de entrada do programa.
-- **`MenuInicial.java`**: Gera o menu interativo e manipula as opções escolhidas pelo usuário.
-- **`Conversor.java`**: Realiza as chamadas à API e faz os cálculos de conversão, além de registrar conversões em log.
-
 ## Funcionalidades
 
 - Conversão entre as moedas:
@@ -40,6 +26,20 @@ Menu inicial:
 <div align="center">
     <img width="300" alt="menu" src="https://github.com/user-attachments/assets/df7b1e4a-b4e5-4715-8bdd-655fba3c3734" />
 </div>
+
+## Tecnologias utilizadas
+
+- **Java 17**: Linguagem de programação principal do projeto.
+- **Gson**: Biblioteca para manipulação de JSON.
+- **Java HTTP Client**: Para realizar requisições HTTP.
+- **ExchangeRate-API**: API utilizada para obter as taxas de conversão em tempo real.
+- **Sistema de arquivos**: Para leitura da chave da API e registro de logs com histórico de conversões.
+
+## Estrutura do projeto
+
+- **`Main.java`**: Contém o ponto de entrada do programa.
+- **`MenuInicial.java`**: Gera o menu interativo e manipula as opções escolhidas pelo usuário.
+- **`Conversor.java`**: Realiza as chamadas à API e faz os cálculos de conversão, além de registrar conversões em log.
 
 ## Como executar
 
