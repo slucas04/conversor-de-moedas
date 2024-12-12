@@ -56,7 +56,7 @@ public class Conversor {
         System.out.println("O valor de " + base + " " + String.format("%.2f", valor) + " é " + alvo + " " + String.format("%.2f", conversaoFinal) + ".");
 
         //Salvando as conversões no log
-        OutputStream os = new FileOutputStream("C:\\Users\\samuel\\conversor-de-moedas\\src\\log_de_transacoes.txt", true);
+        OutputStream os = new FileOutputStream("C:\\Users\\seu_usuario\\conversor-de-moedas\\src\\log_de_transacoes.txt", true);
         Writer wr = new OutputStreamWriter(os);
         BufferedWriter br = new BufferedWriter(wr);
 
