@@ -69,7 +69,7 @@ Log de conversões salvas em um arquivo .txt:
 ## Observações
 
 - Certifique-se de que a chave da API esteja configurada corretamente no arquivo `api_key.txt`.
-- O arquivo de log será salvo no caminho especificado no código: `C:\Users\samuel\conversor-de-moedas\src\log_de_transacoes.txt`. Altere o caminho para onde salvar seu projeto.
+- O arquivo de log será salvo no caminho especificado no código: `C:\Users\seu_usuario\conversor-de-moedas\src\log_de_transacoes.txt`. Altere o caminho para onde salvar seu projeto.
 
 ## Desenvolvimento
 
