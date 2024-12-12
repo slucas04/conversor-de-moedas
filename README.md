@@ -16,16 +16,19 @@ Este é um conversor de moedas desenvolvido em Java, com propósito de praticar 
 ## Funcionalidades
 
 - Conversão entre as moedas:
-  - Real Brasileiro (BRL) para Rand Sul-Africano (ZAR), Naira Nigeriana (NGN) e Peso Filipino (PHP), e vice-versa.
+  - Real brasileiro (BRL) para rand sul-africano (ZAR), naira nigeriana (NGN) e peso filipino (PHP), e vice-versa.
 - Registro de todas as conversões em um arquivo de log com a data e hora.
 
 ## Exemplo de execução
 
-Menu inicial:
+Menu inicial e conversão de real brasileiro (BRL) para rand sul-africano (ZAR):
 
-<div align="center">
-    <img width="300" alt="menu" src="https://github.com/user-attachments/assets/df7b1e4a-b4e5-4715-8bdd-655fba3c3734" />
-</div>
+<img width="427" alt="menu" src="https://github.com/user-attachments/assets/713ed4ff-8180-4331-aab2-42b971ff7fb3" />
+
+Log de transações salvo em txt:
+
+<img width="195" alt="log" src="https://github.com/user-attachments/assets/c53ed932-09e4-417a-b28e-aedf5a6faaa0" />
+
 
 ## Tecnologias utilizadas
 
