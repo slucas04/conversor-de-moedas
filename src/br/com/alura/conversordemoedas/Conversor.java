@@ -10,6 +10,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.InputMismatchException;
 import java.util.Properties;
 import java.util.Scanner;
 
@@ -24,8 +25,13 @@ public class Conversor {
     public void recebe(String base, String alvo) throws IOException, InterruptedException {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o valor numérico em " + base + " que deseja converter para " + alvo + " (usando vírgula para separar dos centavos):");
-        float valor = entrada.nextFloat();
-        converte(valor, base, alvo);
+        try {
+            float valor = entrada.nextFloat();
+            converte(valor, base, alvo);
+        } catch (InputMismatchException e) {
+            System.out.println("O formato não atende ao esperado. Tente digitar um valor numérico válido.");
+            recebe(base, alvo);
+        }
     }
 
     public void converte(float valor, String base, String alvo) throws IOException, InterruptedException {

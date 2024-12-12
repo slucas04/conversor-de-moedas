@@ -4,3 +4,6 @@ Conversão abaixo feita em: 17:10:42 - 2024/12/11
 Conversão abaixo feita em: 17:16:39 - 2024/12/11
 [O valor de PHP 33,52 é BRL 3,50.]
 
+Conversão abaixo feita em: 16:23:32 - 2024/12/12
+[O valor de BRL 1,10 é ZAR 3,24.]
+
