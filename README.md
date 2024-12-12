@@ -23,12 +23,15 @@ Este é um conversor de moedas desenvolvido em Java, com propósito de praticar 
 
 Menu inicial e conversão de real brasileiro (BRL) para rand sul-africano (ZAR):
 
-<img width="427" alt="menu" src="https://github.com/user-attachments/assets/713ed4ff-8180-4331-aab2-42b971ff7fb3" />
+<div align="center">
+  <img width="600" alt="menu" src="https://github.com/user-attachments/assets/713ed4ff-8180-4331-aab2-42b971ff7fb3" />
+</div>
 
 Log de transações salvo em txt:
 
-<img width="195" alt="log" src="https://github.com/user-attachments/assets/c53ed932-09e4-417a-b28e-aedf5a6faaa0" />
-
+<div align="center">
+  <img width="600" alt="log" src="https://github.com/user-attachments/assets/c53ed932-09e4-417a-b28e-aedf5a6faaa0" />
+</div>
 
 ## Tecnologias utilizadas
 
