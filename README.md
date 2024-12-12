@@ -27,7 +27,7 @@ Menu inicial e conversão de real brasileiro (BRL) para rand sul-africano (ZAR):
   <img width="600" alt="menu" src="https://github.com/user-attachments/assets/a68d3f1b-b47b-4f85-a283-ad8a4bb0dd6e" />
 </div>
 
-Log de transações salvo em txt:
+Log de transações salvo em um arquivo .txt:
 
 <div align="center">
   <img width="300" alt="log" src="https://github.com/user-attachments/assets/b06e1c61-4a7a-48d9-a4b6-90ebc4225a1e" />
