@@ -38,7 +38,7 @@ Log de conversões salvas em um arquivo .txt:
 ## Tecnologias utilizadas
 
 - **Java 17**: Linguagem de programação principal do projeto.
-- **Gson**: Biblioteca para manipulação de JSON.
+- **Gson**: Biblioteca para manipulação de JSON como um objeto.
 - **Java HTTP Client**: Para realizar requisições HTTP.
 - **ExchangeRate-API**: API utilizada para obter as taxas de conversão em tempo real.
 - **Sistema de arquivos**: Para leitura da chave da API e registro de logs com histórico de conversões.
