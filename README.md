@@ -7,6 +7,8 @@
     <img src="https://img.shields.io/badge/finished-december-green" alt="Finished in December">
 </div>
 
+---
+
 # Conversor de Moedas
 
 ## Descrição do projeto
